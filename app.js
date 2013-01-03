@@ -16,7 +16,7 @@ ss.client.define('main', {
 // Define a single-page client called 'index'
 ss.client.define('index', {
   view: 'index.html',
-  css:  ['libs/reset.css', 'app.styl'],
+  css:  ['index.css'],
   code: ['libs/jquery.min.js'],
   tmpl: '*'
 });
@@ -37,7 +37,7 @@ if (ss.env === 'production') ss.client.packAssets();
 
 // Start web server
 var server = http.Server(ss.http.middleware);
-server.listen(80);
+server.listen(3000);
 
 // Start SocketStream
 ss.start(server);

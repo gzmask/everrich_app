@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  background-image:url("/img/bg.png");
+  background-color:#888;
+}
+
+.wrapper {
+  min-width: 1280px;
+  min-height: 800px;
+}
+
+.header {
+  background-image:url("/img/header.png");
+  background-repeat: no-repeat;
+  min-width: 1280px;
+  min-height: 419px;
+  padding-top: 190px;
+  padding-left: 15px;
+}
+
+.nav {
+  background-image:url("/img/nav.png");
+  background-repeat: no-repeat;
+  color:#222;
+  min-width: 903px;
+  min-height: 43px;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.nav a:link, .nav a:visited {
+  font-size: 18px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-repeat: no-repeat;
+  background-position:right top;
+  color:#ccc;
+  text-decoration:none;
+}
+
+.nav a:hover, .nav a:active {
+  color:#eee;
+  text-decoration:none;
+}
