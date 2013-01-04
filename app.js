@@ -1,10 +1,11 @@
-// My SocketStream 0.3 app
+// everrich SocketStream 0.3.2 app
 
 var http = require('http'),
+    express = require('express'),
     ss = require('socketstream');
 
-// Define a single-page client called 'main'
 /*
+// Define a single-page client called 'main'
 ss.client.define('main', {
   view: 'app.html',
   css:  ['libs/reset.css', 'app.styl'],
@@ -16,7 +17,7 @@ ss.client.define('main', {
 // Define a single-page client called 'index'
 ss.client.define('index', {
   view: 'index.html',
-  css:  ['index.css'],
+  css:  ['libs/reset.css', 'index.css'],
   code: ['libs/jquery.min.js'],
   tmpl: '*'
 });

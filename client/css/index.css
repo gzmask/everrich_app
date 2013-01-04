@@ -14,11 +14,12 @@ body {
   background-repeat: no-repeat;
   min-width: 1280px;
   min-height: 419px;
-  padding-top: 190px;
-  padding-left: 15px;
+  margin-top: 30px;
 }
 
 .nav {
+  position: fixed;
+  top: 0px;
   background-image:url("/img/nav.png");
   background-repeat: no-repeat;
   color:#222;
