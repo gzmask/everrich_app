@@ -7,7 +7,7 @@ body {
 .content-top {
   background-color: #fff;
   color: #333;
-  width: 800px;
+  width: 1200px;
   border-radius:8px;
   padding: 12px;
   margin-left: 20px;
@@ -39,13 +39,13 @@ body {
 }
 
 .wrapper {
-  padding-top: 250px;
+  padding-top: 220px;
   padding-left: 20px;
   background-image:url("/img/header.png");
   background-repeat: no-repeat;
   min-width: 1280px;
   min-height: 419px;
-  margin-top: 0px;
+  margin-top: 15px;
 }
 
 .nav {
