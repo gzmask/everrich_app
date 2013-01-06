@@ -4,29 +4,62 @@ body {
   background-color:#888;
 }
 
-.wrapper {
-  min-width: 1280px;
-  min-height: 800px;
+.content-top {
+  background-color: #fff;
+  color: #333;
+  width: 800px;
+  border-radius:8px;
+  padding: 12px;
+  margin-left: 20px;
+  box-shadow: 2px 2px 5px 0px #555 inset;
 }
 
-.header {
+.content {
+  background-color: #fff;
+  color: #333;
+  width: 800px;
+  margin-top: 40px;
+  margin-left: 20px;
+  border-radius:8px;
+  padding: 12px;
+  padding-top: 42px;
+  box-shadow: 2px 2px 5px 0px #555 inset;
+}
+
+.footer {
+  background-color: #fff;
+  background-repeat:no-repeat;
+  background-position:left; 
+  width: 800px;
+  margin-bottom: 500px;
+  margin-top: 50px;
+  margin-left: 20px;
+  border-radius:8px;
+  padding: 12px;
+  box-shadow: 2px 2px 5px 0px #555 inset;
+}
+
+.wrapper {
+  padding-top: 250px;
+  padding-left: 20px;
   background-image:url("/img/header.png");
   background-repeat: no-repeat;
   min-width: 1280px;
   min-height: 419px;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .nav {
   position: fixed;
-  top: 0px;
+  top: -5px;
+  left: 0px;
   background-image:url("/img/nav.png");
   background-repeat: no-repeat;
   color:#222;
   min-width: 903px;
   min-height: 43px;
   padding-top: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .nav a:link, .nav a:visited {
