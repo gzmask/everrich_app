@@ -22,7 +22,6 @@ body {
   margin-left: 20px;
   border-radius:8px;
   padding: 12px;
-  padding-top: 42px;
   box-shadow: 2px 2px 5px 0px #555 inset;
 }
 
@@ -75,4 +74,12 @@ body {
 .nav a:hover, .nav a:active {
   color:#eee;
   text-decoration:none;
+}
+
+.content a:link, .content a:visited {
+  color:#555;
+}
+
+.content a:hover, .content a:active {
+  color:#000;
 }
