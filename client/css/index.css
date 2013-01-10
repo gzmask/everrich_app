@@ -55,10 +55,11 @@ body {
   background-image:url("/img/nav.png");
   background-repeat: no-repeat;
   color:#222;
-  min-width: 903px;
-  min-height: 43px;
+  width: 1267px;
+  height: 45px;
   padding-top: 10px;
   font-size: 18px;
+  border-radius:8px;
 }
 
 .nav a:link, .nav a:visited {
