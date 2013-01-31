@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Everrich Technology</title>
+    <title>Richever Technology</title>
     <meta charset="utf-8"/>
     <SocketStream/>
   </head>
   <body id="sec0">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     <div class="wrapper">
       <div class="nav">
-          <a href="#sec0" class="smoothScroll">Everrich</a>|
+          <a href="#sec0" class="smoothScroll">Richever</a>|
           <a href="#sec1" class="smoothScroll">Services</a>|
           <a href="#sec2" class="smoothScroll">Products</a>|
           <a href="#sec3" class="smoothScroll">About</a>|
@@ -17,12 +25,37 @@
       </div>
       <div class="content-top">
         <div class="post">
-          We are open business!
+          We are open for business!<br />
         </div>
+        <div class="fb-like" data-send="false" data-layout="standard" data-width="450" data-show-faces="false" data-colorscheme="light" data-action="like"></div>
+
+          <!-- START: Livefyre Embed -->
+          <div id="livefyre-comments"></div>
+          <script type="text/javascript" src="http://zor.livefyre.com/wjs/v3.0/javascripts/livefyre.js"></script>
+          <script type="text/javascript">
+          (function () {
+              var articleId = fyre.conv.load.makeArticleId(null);
+              fyre.conv.load({}, [{
+                  el: 'livefyre-comments',
+                  network: "livefyre.com",
+                  siteId: "322772",
+                  articleId: articleId,
+                  signed: false,
+                  collectionMeta: {
+                      articleId: articleId,
+                      url: fyre.conv.load.makeCollectionUrl(),
+                  }
+              }], function() {});
+          }());
+          </script>
+          <!-- END: Livefyre Embed -->
+      </div>
+
       </div>
       <a id="sec1" />
       <div class="content">
         <img src="/img/service.png" /><br />
+        Why, How, What<br />
         Web development<br />
         Web advertisement<br />
         Computer repair<br />
@@ -80,7 +113,7 @@
         <a href="http://www.weibo.com/3210534417/profile?topnav=1&wvr=5">Sina Weibo</a><br />
       </div>
       <div class="footer">
-        All copyrights &#169; 2013 Everrich Technology.
+        All copyrights &#169; 2013 Richever Technology.
         <br />
         <img src="/img/qr_er.png" />
       </div>
